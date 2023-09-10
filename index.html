@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="index.css" type="text/css" >
+</head>
+<body>
+    <div class="dashboard">
+    <!-- Displays the slack User Name -->
+        <div  class="userName">
+            <h1 data-testid="slackUserName"> VICTOR KEHINDE</h1>
+        </div>
+
+    <!-- Displays the User's Profile Picture -->
+         <div class="displayPicture">
+             <img data-testid="slackDisplayImage" src="images/mypicture.jpg" alt="VICTOR KEHINDE " >
+         </div>  
+
+    <!-- Displays the Current Weekday -->
+        <div class="Weekday">
+            <h3> 
+                <label>Day :</label>
+                <span id="today" data-testid="currentDayOfTheWeek"> Day </span>
+            </h3>
+        </div>
+
+    <!-- Displays UTC Time in milliseconds -->
+        <div class="utcTime">
+            <h3 >
+                <label>UTC Time : </label>
+                <span id="time" data-testid="currentUTCTime"> Time </span>
+            </h3>
+        </div>
+
+    <!-- Displays the User's Track -->
+         <div class="track">
+            <h3 >
+                <label> Track : </label>
+                <span data-testid="myTrack">FRONTEND </span>
+            </h3>
+         
+        </div>
+
+         <div class="link">
+            <p>For Link to the Github Repository, Click <a data-testid="githubURL" href="https://github.com/phenomfunbi/Zuri_task_1" >here</a></p>
+         </div>
+
+     </div>
+
+    
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
